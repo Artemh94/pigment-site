@@ -1,0 +1,14 @@
+:root { --paper: #fdfcfb; --ink: #2b2a28; --quiet: #8a8782; --rule: #e9e6e1; }
+@media (prefers-color-scheme: dark) { :root { --paper: #1c1b1a; --ink: #ecebe8; --quiet: #9a9792; --rule: #34322f; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 300 17px/1.6 "Raleway", -apple-system, system-ui, sans-serif; }
+main { max-width: 640px; margin: 0 auto; padding: 64px 20px 96px; }
+.mark { width: 56px; height: 56px; border-radius: 14px; background: linear-gradient(135deg, #e7c55a 0 50%, #4d8a5f 50% 100%); margin-bottom: 32px; }
+h1 { font-weight: 200; font-size: 40px; letter-spacing: .02em; margin: 0 0 4px; }
+h2 { font-weight: 400; font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--quiet); margin: 48px 0 12px; }
+p, li { margin: 0 0 12px; }
+ul { padding-left: 20px; }
+a { color: inherit; text-decoration-color: var(--quiet); text-underline-offset: 3px; }
+.meta { color: var(--quiet); font-size: 14px; }
+footer { margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--quiet); font-size: 14px; }
+footer a { margin-right: 16px; }
